@@ -1,0 +1,123 @@
+*,*::after , *::before {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    font-family: sans-serif;
+    background: #506748;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.wrapper{
+    width: 100%;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    row-gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.item-list-container {
+    width: 30%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    border-radius: 20px;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.second-container h2{
+    font-weight: 700;
+    font-size: 2vw;
+
+}
+.second-container p{
+    font-size: 1vw;
+}
+.input-list-event{
+    width: 30%;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    row-gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.list-card{
+    background: #e0cec4;
+    border-radius: 16px;
+    padding: 5px 13px;
+}
+.complete-button{
+    margin-top: 10px;
+}
+.event-input{
+    width: 40%;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.main-input {
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.todo-item{
+    border-radius: 8px;
+    padding: 16px;    
+}
+.todo-item-completed{
+    opacity: 50%;
+}
+.todo-item-completed h2, .todo-item-completed p {
+    opacity: 50%;
+    text-decoration: line-through;
+}
+.categories-block {
+    display: flex;
+    column-gap: 10px;
+}
+.first-container {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-container {
+    display: flex;
+}
+.icon-button {
+    padding: 5px;
+}
+.save-button, .cancel-button{
+    background: #e0cec4;
+    color: #506748;
+}
+button{
+    padding: 8px 12px;
+    color: #e0cec4;
+    background: #506748;
+    border-radius: 8px;
+    border: none;
+}
+.remove-item{
+    opacity: 50%;
+    transition: opasity 3s ease;
+}
